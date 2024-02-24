@@ -38,7 +38,7 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -71,10 +71,10 @@ x_username: # your X handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: uddhavbhattarai
 telegram_username: # your Telegram user name
-scholar_userid: #eXUKqXQAAAAJ # your Google Scholar ID
+scholar_userid: eXUKqXQAAAAJ # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-orcid_id: #0000-0001-6299-6796
+orcid_id: 0000-0001-6299-6796
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
