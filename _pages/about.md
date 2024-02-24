@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am artificial intelligence and robotics researcher working in areas of agriculture automation and precision agriculture. Currently, I am working as a Postdoctoral Scholar with [Prof. Stavros G. Vougioukas](https://faculty.engineering.ucdavis.edu/vougioukas/) at Bio-Automation Lab, University of California, Davis. My current research focuses on the development of AI approaches for human activity recognition and precision yield monitoring in strawberry fields.
+I am an artificial intelligence and robotics researcher working in areas of agriculture automation and precision agriculture. Currently, I am working as a Postdoctoral Scholar with [Prof. Stavros G. Vougioukas](https://faculty.engineering.ucdavis.edu/vougioukas/) at Bio-Automation Lab, University of California, Davis. My current research focuses on the development of AI approaches for human activity recognition and precision yield monitoring in strawberry fields.
 
 I completed my Ph.D. in Biological and Agricultural Engineering at Washington State University (WSU) under [Prof. Manoj Karkee](https://labs.wsu.edu/karkee-ag-robotics/). During my Ph.D., I worked in intersection of computer vision and robotics with projects involving development of deep learning-based weakly/fully supervised computer vision algorithms for object detection, segmentation, density estimation, localization, counting; ground-based robotic systems for field operations such as blossom thinning, pruning, pollination in orchards, and green shoot thinning in vineyards; as well as aerial robotic systems for pest bird deterrence in vineyards.
 
