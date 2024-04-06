@@ -1,16 +1,14 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image edited
+title: Robotic Blossom Thinning
+description: Development and field evaluation of robotic blossom thinning system for tree fruit crops.
 img: assets/img/12.jpg
 importance: 1
 category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+The Robotic Blossom Thinning System consisted of machine vision system integrated with mechatronic system involving UR5e 6-degrees of freedom robotic manipulator and end-effector. Initial segmentation of apple flower clusters was achieved through Mask-RCNN, followed by 3D cluster pose estimation. Manipulator motion planning utilized Robot Operating System (ROS) MoveIt. Thinning operations were executed by directing the end effector orthogonal to the cluster surface center or boundary.
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
@@ -22,14 +20,11 @@ To give your project a background in the portfolio page, just add the img tag to
     ---
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/segmented_image_01.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/pose_estimation.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
