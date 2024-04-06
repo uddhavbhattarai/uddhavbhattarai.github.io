@@ -8,69 +8,38 @@ category: work
 related_publications: true
 ---
 
-The Robotic Blossom Thinning System consisted of machine vision system integrated with mechatronic system involving UR5e 6-degrees of freedom robotic manipulator and end-effector. Initial segmentation of apple flower clusters was achieved through Mask-RCNN, followed by 3D cluster pose estimation. Manipulator motion planning utilized Robot Operating System (ROS) MoveIt. Thinning operations were executed by directing the end effector orthogonal to the cluster surface center or boundary.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The Robotic Blossom Thinning System consisted of machine vision system (Intel RealSense D435i) integrated with mechatronic system involving UR5e 6-degrees of freedom robotic manipulator and end-effector. Initial segmentation of apple flower clusters was achieved through Mask-RCNN, followed by 3D cluster pose estimation. Manipulator motion planning utilized Robot Operating System (ROS) MoveIt. Thinning operations were executed by directing the end effector orthogonal to the cluster surface center or boundary.
 
 <div class="row">
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/segmented_image_01.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/segmented_image_01.jpg" title="Segmentation results Mask R-CNN" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/pose_estimation.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/closeup_orientation.png" title="Canopy with segmented clusters and their pose" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    [Left] Segmentation results from Mask-RCNN algorithm during field trial. [Right] visualization of apple canopy. Different colored clusters represent different instances of segmentation results. The red arrows represent estimated cluster position and orientation, which were used to control the approach direction of the end-effector.
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/OverallSystem.jpg" title="Overall integrated system" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Integrated system during field evaluation in commercial apple orchard in Washington State, USA.
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+End-effector was developed by using strings commercial trimmers. Two thinning approaches were used to evaluate the capability of system for proportional blossom thinning i) Boundary thinning: end-effector actuated around cluster boundary. ii) Center thinning: end -effector actuated at cluster centroid.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/ThinningStrategy-min_1.png" title="Images during field trial" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Images depicting integrated system in action during the field evaluation.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+Boundary thinning approach thinned 67.3% of flowers from the target clusters with cycle time of 9.0 seconds per cluster. Center thinning approach thinned 59.4% of flowers with cycle time of 7.2 seconds per cluster.
