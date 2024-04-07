@@ -1,81 +1,45 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
+title: Weakly-supervised approach for flower and fruit counting (CountNet)
+description: Developed and evaluated weakly-supervised regression-based approach for flower and fruit counting in orchard images.
 img: assets/img/7.jpg
 redirect: https://unsplash.com
 importance: 3
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+CountNet consisted three computational blocks connected sequentially: VGG-16 as feature extraction block, Global Average Pooling (GAP) as feature reduction block, and fully connected network as count computation block. The counting process is weakly supervised in the sense that the neural network learns based only on the count information without any explicit information on the object of interest (flower/fruit).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/CountNet.png" title="CountNet Architecture" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Architecture of proposed CountNet. Countnet consisted sequential connection of VGG16, GAP, and fully connected network.
 </div>
+Experiments were conducted in images acquired in an unstructured commercial orchard environment. Once the count results were obtained was critically important to analyze and understand if the network was actually looking into the relevant features to come up with the specific count decision. To evaluate the functionality of CountNet twoactivation map visualization techniques: Score-
+CAM (highlight relevant regions) and Guided Backpropagation (highlights relevant flower and fruit features) were adopted and implemented.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/flowerfeatures.png" title="Analysis of activated flower features" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    [Left] Closeup view of apple canopy image  during full bloom. [Center] Highlighted regions contributing to count obtained from Score-CAM. [Right] Highlighted features contributing to count obtained from Guided Backpropagation.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+The most activated features were petal edges for full bloom flowers, and late pink flower blob for Late Pink stage flowers.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/fruitfeatures.png" title="Analysis of activated fruit features" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    [Left] Closeup view of apple canopy image  during full bloom. [Center] Highlighted regions contributing to count obtained from Score-CAM. [Right] Highlighted features contributing to count obtained from Guided Backpropagation.
 </div>
+The most activated features for were fruit edges and calyx (if present in image).
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+Results showed a minimum Mean Absolute
+Error (MAE)/Root Mean Square Error (RMSE) of 12.0/18.4 (Avg. flowers/image:69) and 2.9/4.3 (Avg. apples/image:48) for the apple flower and fruit dataset respectively.
