@@ -2,13 +2,13 @@
 layout: page
 title: Robotic Blossom Thinning
 description: Development and field evaluation of robotic blossom thinning system for tree fruit crops.
-img: assets/img/12.jpg
+img: assets/img/OverallSystem.jpg
 importance: 1
 category: work
 related_publications: true
 ---
 
-The Robotic Blossom Thinning System consisted of machine vision system (Intel RealSense D435i) integrated with mechatronic system involving UR5e 6-degrees of freedom robotic manipulator and end-effector. Initial segmentation of apple flower clusters was achieved through Mask-RCNN, followed by 3D cluster pose estimation. Manipulator motion planning utilized Robot Operating System (ROS) MoveIt. Thinning operations were executed by directing the end effector orthogonal to the cluster surface center or boundary.
+The Robotic Blossom Thinning System consisted of machine vision system (Intel RealSense D435i) integrated with mechatronic system involving UR5e 6-degrees of freedom robotic manipulator and end-effector. End-effector was developed by using strings commercial trimmers. Initial segmentation of apple flower clusters was achieved through Mask-RCNN, followed by 3D cluster pose estimation. Manipulator motion planning utilized Robot Operating System (ROS) MoveIt. Thinning operations were executed by directing the end effector orthogonal to the cluster surface center or boundary. {% cite bhattarai2023design %}
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -30,10 +30,10 @@ The Robotic Blossom Thinning System consisted of machine vision system (Intel Re
     Integrated system during field evaluation in commercial apple orchard in Washington State, USA.
 </div>
 
-End-effector was developed by using strings commercial trimmers. Two thinning approaches were used to evaluate the capability of system for proportional blossom thinning i) Boundary thinning: end-effector actuated around cluster boundary. ii) Center thinning: end -effector actuated at cluster centroid.
+Two thinning approaches were used to evaluate the capability of system for proportional blossom thinning i) Boundary thinning: end-effector actuated around cluster boundary. ii) Center thinning: end -effector actuated at cluster centroid.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/ThinningStrategy-min_1.png" title="Images during field trial" class="img-fluid rounded z-depth-1" %}
     </div>
 
@@ -43,3 +43,4 @@ End-effector was developed by using strings commercial trimmers. Two thinning ap
 </div>
 
 Boundary thinning approach thinned 67.3% of flowers from the target clusters with cycle time of 9.0 seconds per cluster. Center thinning approach thinned 59.4% of flowers with cycle time of 7.2 seconds per cluster.
+

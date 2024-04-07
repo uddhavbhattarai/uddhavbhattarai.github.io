@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Uddhav Bhattarai",
+    "label": "",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "uddhavbhattarai@outlook.com",
+    "phone": "",
+    "url": "https://www.linkedin.com/in/uddhavbhattarai/",
+    "summary": "",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
@@ -16,184 +16,177 @@
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "",
+        "username": "",
+        "url": ""
       }
     ]
   },
-  "work": [
-    {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
+
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "Washington State University",
+      "location": "Pullman, WA, USA",
+      "url": "https://wsu.edu/",
+      "area": "Agricultural Robotics, AI in Agriculture, Precision Agriculture, Deep Learning, Machine Vision",
+      "studyType": "PhD in Biological and Agricultural Engineering",
+      "startDate": "2018",
+      "endDate": "2023",
+      "score": "",
+      "courses": []
+    },
+
+    {
+      "institution": "Tennessee Technological University",
+      "location": "Cookeville, TN, USA",
+      "url": "",
+      "area": "Image processing, Multi-sensor Data Fusion",
+      "studyType": "Master of Science in Electrical Engineering",
+      "startDate": "2015",
+      "endDate": "2018",
+      "score": "",
+      "courses": []
     }
   ],
-  "awards": [
+
+  "work": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "name": "University of California, Davis",
+      "position": " Post-Doctoral Research Associate",
+      "url": "https://faculty.engineering.ucdavis.edu/vougioukas/",
+      "startDate": "2023",
+      "endDate": "-",
+      "summary": "",
+      "highlights": ["Developed deep learning-based approach to detect picker activity recognition system using time series Global Positioning System (GPS), Inertial Measurement Unit (IMU), and Weight information during strawberry harvesting.",
+    "Developing an automated pipeline to estimate precision yield in strawberry fields throughout the harvesting season based on GPS, IMU, and weight information."]
+    },
+  
+    {
+      "name": "Washington State University (Pullman, WA)",
+      "position": "Graduate Research Assistant",
+      "url": "https://labs.wsu.edu/karkee-ag-robotics/",
+      "startDate": "2018",
+      "endDate": "2023",
+      "summary": "",
+      "highlights": ["Developed and implemented deep learning based fully-supervised algorithms for object(e.g. flowers, fruits, branches, trunk, cordons) detection and segmentation, and 3D localization in fruit crops for agriculture automation.",
+    "Developed and implemented deep-learning based weakly supervised computer vision algorithms for flowers and fruits density and yield estimation,localization, counting.",
+  "Developed, integrated, and evaluated Robot Operating System (ROS)-based robotic systems (deep learning-based computer  vision, 6-DOF UR5e robot, end-effectors) for blossom thinning and pollination in commercial apple orchards.",
+"Worked on calibration, integration, and data processing of RGB, RGB-D,ToF, multispectral, hyperspectral, thermal cameras as course projects.",
+"Teaching Assistant: Machine Vision for Biological Systems (Fall 2020). Taught graduate classes (Introduction to Deep Learning), and graded homework and projects."]
+    },
+
+    {
+      "name": "FFRobotics Inc.",
+      "position": "Technical Consultant",
+      "url": "https://www.ffrobotics.com/",
+      "startDate": "2022",
+      "endDate": "2023",
+      "summary": "",
+      "highlights": ["Supported U.S.-based operation, diagnosis, problem resolution, testing, and documentation of the 12-Linear Arm commercial robotic apple harvester field trial in Washington State.",
+                      "Collaborated with local and overseas team to design, develop, and integrate machine/deep learning algorithms to identify and localize apples and obstacles (e.g. trunk, branches, trellis wire)",
+                      "Developed/utilized testing scripts, debugging software, and logging tools to investigate, troubleshoot, and resolve hardware and software problems in field depending on time and resources. Collaborated with the overseas team for problem resolution and feature integration.",
+                      "Explained robotic and machine vision techniques and results to technical and non-technical audiences."]
     }
   ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
+
+
+  // "volunteer": [
+  //   {
+  //     "organization": "People's Climate March",
+  //     "position": "Lead Organizer",
+  //     "url": "https://example.com",
+  //     "startDate": "2014-04-01",
+  //     "endDate": "2015-07-01",
+  //     "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
+  //     "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+  //   }
+  // ],
+
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
+      "name": "Languages",
+      "level": "",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Python",
+        "C++",
+        "MATLAB",
+        "Verilog"
       ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
     },
+
     {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
+      "name": "Libraries",
+      "level": "",
+      "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "PyTorch",
+        "TensorFlow",
+        "OpenCV",
+        "Open3D",
+        "Scikit-learn",
+        "Pandas",
+        "Matplotlib",
+        "SciPy",
+        "NumPy"
+      ]
+    },
+
+    {
+      "name": "Middleware",
+      "level": "",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Robot Operating System (ROS)"
+      ]
+    },
+
+    {
+      "name": "Tools",
+      "level": "",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Git",
+        "QT",
+        "Autodesk Inventor"
+      ]
+    },
+
+    {
+      "name": "Micro-computer/controller",
+      "level": "",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Raspberry Pi",
+        "Arduino",
+        "Nvidia Jetson Nano/TX2"
       ]
     }
   ],
-  "references": [
+
+  "awards": [
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "title": "Outstanding Reviewer",
+      "date": "2022",
+      "awarder": "American Society of Agricultural and Biological Engineers (ASABE)",
+      "url": "https://www.asabe.org/About-Us/News/Inside-ASABE-Archives/2022/Inside-ASABEJune-2022#OutstandingEd-Rev",
+      "summary": "Selected as one of 21 (~2.6%) outstanding reviewers out of more than 800 reviewers for ASABE Journals in 2021."
     },
+
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
+      "title": "Winner: 3MT Competition",
+      "date": "2022",
+      "awarder": "WSU CAHNRS",
+      "url": "https://bsyse.wsu.edu/2022/03/31/three-minute-thesis-uddhav-bhattarai-wins-the-cahnrs-phd-competition/",
+      "summary": "Winner of WSU College of Agricultural, Human, and Natural Resource Sciences (CAHNRS) 3 Minute Thesis Competition in 2022."
+    },
+
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "title": "Winner: ASABE Annual International Meeting (AIM) Oral Presentation",
+      "date": "2021",
+      "awarder": "ASABE",
+      "url": "",
+      "summary": "Selected as one of the winners of ITSC Student Oral Presentation Competition at ASABE Annual International Meeting in 2021."
     }
   ]
 }
