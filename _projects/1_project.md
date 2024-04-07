@@ -1,14 +1,14 @@
 ---
 layout: page
-title: Robotic Blossom Thinning
-description: Development and field evaluation of robotic blossom thinning system for tree fruit crops.
+title: Robotic Blossom Thinning System
+description: Robotic system for precision blossom thinning in tree fruit crops.
 img: assets/img/OverallSystem.jpg
 importance: 1
 category: work
 related_publications: true
 ---
 
-The Robotic Blossom Thinning System consisted of machine vision system (Intel RealSense D435i) integrated with mechatronic system involving UR5e 6-degrees of freedom robotic manipulator and end-effector. End-effector was developed by using strings commercial trimmers. Initial segmentation of apple flower clusters was achieved through Mask-RCNN, followed by 3D cluster pose estimation. Manipulator motion planning utilized Robot Operating System (ROS) MoveIt. Thinning operations were executed by directing the end effector orthogonal to the cluster surface center or boundary. {% cite bhattarai2023design %}
+The Robotic Blossom Thinning System consisted of machine vision system (Intel RealSense D435i) integrated with mechatronic system involving UR5e 6-degrees of freedom robotic manipulator and end-effector. End-effector was developed by using strings commercial trimmers. Initial segmentation of apple flower clusters was achieved through Mask-RCNN, followed by 3D cluster pose estimation. Manipulator motion planning utilized Robot Operating System (ROS) MoveIt. Thinning operations were executed by directing the end effector orthogonal to the cluster surface center or boundary. Details: {% cite bhattarai2023design %}
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

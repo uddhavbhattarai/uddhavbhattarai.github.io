@@ -1,17 +1,17 @@
 ---
 layout: page
-title: Weakly-supervised approach for flower and fruit counting (CountNet)
-description: Developed and evaluated weakly-supervised regression-based approach for flower and fruit counting in orchard images.
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: Weakly-supervised object counting
+description: Deep regression-based weakly-supervised approach for flower and fruit counting in orchard images.
+img: assets/img/CountNet.png
 importance: 3
 category: work
+related_publications: true
 ---
 
-CountNet consisted three computational blocks connected sequentially: VGG-16 as feature extraction block, Global Average Pooling (GAP) as feature reduction block, and fully connected network as count computation block. The counting process is weakly supervised in the sense that the neural network learns based only on the count information without any explicit information on the object of interest (flower/fruit).
+CountNet consisted three computational blocks connected sequentially: VGG-16 as feature extraction block, Global Average Pooling (GAP) as feature reduction block, and fully connected network as count computation block. The counting process was weakly supervised in the sense that the neural network learns based only on the count information without any explicit information on the object of interest (flower/fruit). Details: {% cite bhattarai2022weakly %}
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/CountNet.png" title="CountNet Architecture" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -41,5 +41,5 @@ The most activated features were petal edges for full bloom flowers, and late pi
 </div>
 The most activated features for were fruit edges and calyx (if present in image).
 
-Results showed a minimum Mean Absolute
+Results showed a lowest Mean Absolute
 Error (MAE)/Root Mean Square Error (RMSE) of 12.0/18.4 (Avg. flowers/image:69) and 2.9/4.3 (Avg. apples/image:48) for the apple flower and fruit dataset respectively.

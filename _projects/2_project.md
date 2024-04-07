@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Robotic Pollination System
-description: Development and field evaluation of robotic pollination system for tree fruit crops.
+description: Robotic system for precision pollination in tree fruit crops.
 img: assets/img/Robotic_PollinationSetup.jpg
 importance: 2
 category: work
