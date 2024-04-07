@@ -26,10 +26,6 @@ Apple canopy branches were netted weeks prior to blooming. Nets were removed dur
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/Endeffectorcloseup.jpg" title="end-effector closeup view" class="img-fluid rounded z-depth-1" %}
     </div>
-
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/HoneycrispGood.jpg" title="robotic pollinated apples" class="img-fluid rounded z-depth-1" %}
-    </div>
 </div>
 <div class="caption">
     [Left] Close-up view of electrostatic sprayer nozzle and camera. [Right] Honeycrisp apple pollinated via robotic pollination.
