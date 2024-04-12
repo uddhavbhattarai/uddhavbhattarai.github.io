@@ -44,3 +44,6 @@ Two thinning approaches were used to evaluate the capability of system for propo
 
 Boundary thinning approach thinned 67.3% of flowers from the target clusters with cycle time of 9.0 seconds per cluster. Center thinning approach thinned 59.4% of flowers with cycle time of 7.2 seconds per cluster.
 
+Field evaluation of the proposed robotic thinning approach during [Boundary Thinning](https://youtu.be/JOcNg0Lfuh4) and [Center Thinning](https://youtu.be/Q78Ga0lCxQI) in commercial orcahrd environment.
+
+
