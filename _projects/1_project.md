@@ -3,7 +3,7 @@ layout: page
 title: Robotic Blossom Thinning System
 description: Robotic system for precision blossom thinning in tree fruit crops.
 img: assets/img/OverallSystem.jpg
-importance: 1
+importance: 2
 category: work
 related_publications: true
 ---

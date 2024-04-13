@@ -3,7 +3,7 @@ layout: page
 title: Weakly-supervised object counting
 description: Deep regression-based weakly-supervised approach for flower and fruit counting in orchard images.
 img: assets/img/CountNet.png
-importance: 3
+importance: 4
 category: work
 related_publications: true
 ---
@@ -42,4 +42,4 @@ The most activated features were petal edges for full bloom flowers, and late pi
 The most activated features for were fruit edges and calyx (if present in image).
 
 Results showed a lowest Mean Absolute
-Error (MAE)/Root Mean Square Error (RMSE) of 12.0/18.4 (Avg. flowers/image:69) and 2.9/4.3 (Avg. apples/image:48) for the apple flower and fruit dataset respectively.
+Error (MAE)/Root Mean Square Error (RMSE) of 12.0/18.4 (Avg. flowers/image:69) and 2.9/4.3 (Avg. apples/image:48) for the apple flower and fruit dataset respectively. CountNet showed superior counting performance when compated with Local Binary Pattern (LBP) feature extraction followed by Kerner Ridge Regression (KRR).

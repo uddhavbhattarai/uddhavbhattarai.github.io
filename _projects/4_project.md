@@ -1,9 +1,9 @@
 ---
 layout: page
-title: deep regression based object density estimation, localization, and counting complex orchard environment
+title: deep regression based object density estimation, localization, and counting
 description:
 img: assets/img/DSC09300_overlaid.png
-importance: 4
+importance: 5
 category: work
 ---
 We propose a deep regression-based approach that leverages dot annotations to estimate flower and fruit density, location and count. It avoids the complex and time-consuming process of explicitly detecting and counting each object. Instead, the model directly predicts a density map where the sum of pixel intensities corresponds to the flower or fruit count.
