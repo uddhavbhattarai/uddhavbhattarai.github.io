@@ -17,7 +17,7 @@ We propose a deep regression-based approach that leverages dot annotations to es
     </div>
 </div>
 <div class="caption">
-    [Left] Canopy image with early stage flower. [Right] Canopy with early stage flower with overlaid density map generated from proposed approach.
+    [Left/Top] Canopy image with early stage flower. [Right/Bottom] Canopy with early stage flower with overlaid density map generated from proposed approach.
 </div>
 
 <div class="row">
@@ -29,7 +29,7 @@ We propose a deep regression-based approach that leverages dot annotations to es
     </div>
 </div>
 <div class="caption">
-    [Left] Canopy image with full bloom flower. [Right] Canopy with full bloom flower with overlaid density map generated from proposed approach.
+    [Left/Top] Canopy image with full bloom flower. [Right/Bottom] Canopy with full bloom flower with overlaid density map generated from proposed approach.
 </div>
 
 <div class="row">
@@ -41,7 +41,7 @@ We propose a deep regression-based approach that leverages dot annotations to es
     </div>
 </div>
 <div class="caption">
-    [Left] Canopy image with harvest ready apples. [Right] Canopy with harvest ready apples with overlaid density map generated from proposed approach.
+    [Left/Top] Canopy image with harvest ready apples. [Right/Bottom] Canopy with harvest ready apples with overlaid density map generated from proposed approach.
 </div>
 
 Once the density maps were generated post-processing algorithm was developed to estimate flower and fruit location.

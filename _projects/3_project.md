@@ -27,7 +27,7 @@ CAM (highlight relevant regions) and Guided Backpropagation (highlights relevant
     </div>
 </div>
 <div class="caption">
-    [Left] Closeup view of apple canopy image  during full bloom. [Center] Highlighted regions contributing to count obtained from Score-CAM. [Right] Highlighted features contributing to count obtained from Guided Backpropagation.
+    [Left/Top] Closeup view of apple canopy image  during full bloom. [Center] Highlighted regions contributing to count obtained from Score-CAM. [Right/Bottom] Highlighted features contributing to count obtained from Guided Backpropagation.
 </div>
 
 The most activated features were petal edges for full bloom flowers, and late pink flower blob for Late Pink stage flowers.
@@ -37,7 +37,7 @@ The most activated features were petal edges for full bloom flowers, and late pi
     </div>
 </div>
 <div class="caption">
-    [Left] Closeup view of apple canopy image  during full bloom. [Center] Highlighted regions contributing to count obtained from Score-CAM. [Right] Highlighted features contributing to count obtained from Guided Backpropagation.
+    [Left/Top] Closeup view of apple canopy image  during full bloom. [Center] Highlighted regions contributing to count obtained from Score-CAM. [Right/Bottom] Highlighted features contributing to count obtained from Guided Backpropagation.
 </div>
 The most activated features for were fruit edges and calyx (if present in image).
 
