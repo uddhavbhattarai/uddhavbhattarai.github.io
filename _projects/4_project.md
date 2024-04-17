@@ -57,3 +57,5 @@ Once the density maps were generated post-processing algorithm was developed to 
 <div class="caption">
     Localization results for full bloom flowers and harvest heady apples.
 </div>
+
+**SKILLS:** Python, OpenCV, PyTorch, NumPy, Pandas, Scikit-learn, Linux

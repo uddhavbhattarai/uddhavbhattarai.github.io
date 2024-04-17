@@ -46,4 +46,6 @@ Boundary thinning approach thinned 67.3% of flowers from the target clusters wit
 
 Field evaluation of the proposed robotic thinning approach during [Boundary Thinning](https://youtu.be/JOcNg0Lfuh4) and [Center Thinning](https://youtu.be/Q78Ga0lCxQI) in commercial orcahrd environment.
 
+**SKILLS:** Python, OpenCV, Open3D, TensorFlow, NumPy, Pandas, Robot Operating System (ROS), Linux, Arduino, Autodesk Inventor
+
 

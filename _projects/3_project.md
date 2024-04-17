@@ -43,3 +43,5 @@ The most activated features for were fruit edges and calyx (if present in image)
 
 Results showed a lowest Mean Absolute
 Error (MAE)/Root Mean Square Error (RMSE) of 12.0/18.4 (Avg. flowers/image:69) and 2.9/4.3 (Avg. apples/image:48) for the apple flower and fruit dataset respectively. CountNet showed superior counting performance when compated with Local Binary Pattern (LBP) feature extraction followed by Kerner Ridge Regression (KRR).
+
+**SKILLS:** Python, OpenCV, PyTorch, NumPy, Pandas, Scikit-learn, Linux

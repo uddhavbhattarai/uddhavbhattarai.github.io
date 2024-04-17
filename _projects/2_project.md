@@ -36,3 +36,5 @@ Apple canopy branches were netted weeks prior to blooming. Nets were removed dur
 
 
 The initial field trial results were encouraging. However, fruit set differed between apple varieties and was generally lower compared to natural pollination. The quality of the fruits was comparable to fruits from natural pollination. System needs further improvement to enhance pollen solution (the mixture containing pollen grains) development and application, as well as to ensure the effectiveness of the robotic pollination in different fruit varieties.
+
+**SKILLS:** Python, OpenCV, Open3D, TensorFlow, NumPy, Pandas, Robot Operating System (ROS), Linux, Arduino, Autodesk Inventor

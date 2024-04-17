@@ -49,3 +49,5 @@ Furthermore, the time series data, including weight, geo-location, velocity, and
 <div class="caption">
     Yield map for single harvest day.
 </div>
+
+**SKILLS:** Python, TensorFlow, Convolution Neural Network (CNN), Recurrent Neural Network (RNN), Long Short Term Memory (LSTM), NumPy, Pandas, Scikit-learn, Linux, QGIS, Raspberry Pi
