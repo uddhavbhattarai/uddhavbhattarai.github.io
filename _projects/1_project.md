@@ -3,12 +3,12 @@ layout: page
 title: Robotic Blossom Thinning System
 description: Robotic system for precision blossom thinning in tree fruit crops.
 img: assets/img/OverallSystem.jpg
-importance: 2
-category: work
+importance: 4
+category: Robotics, and Control
 related_publications: true
 ---
 
-The Robotic Blossom Thinning System consisted of machine vision system (Intel RealSense D435i) integrated with mechatronic system involving UR5e 6-degrees of freedom robotic manipulator and end-effector. End-effector was developed by using strings commercial trimmers. Initial segmentation of apple flower clusters was achieved through Mask-RCNN, followed by 3D cluster pose estimation. Manipulator motion planning utilized Robot Operating System (ROS) MoveIt. Thinning operations were executed by directing the end effector orthogonal to the cluster surface center or boundary. Details: {% cite bhattarai2023design %}
+The Robotic Blossom Thinning System consisted of machine vision system (Intel RealSense D435i) integrated with mechatronic system involving UR5e 6-degrees of freedom robotic manipulator and end-effector. End-effector was developed by using commercial string trimmers to cut grass. Initial segmentation of apple flower clusters was achieved through Mask-RCNN, followed by 3D cluster pose estimation. Manipulator motion planning utilized Robot Operating System (ROS) MoveIt. Thinning operations were executed by directing the end effector orthogonal to the cluster surface center or boundary. Details: {% cite bhattarai2024design %}
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -19,7 +19,7 @@ The Robotic Blossom Thinning System consisted of machine vision system (Intel Re
     </div>
 </div>
 <div class="caption">
-    [Left] Segmentation results from Mask-RCNN algorithm during field trial. [Right] visualization of apple canopy. Different colored clusters represent different instances of segmentation results. The red arrows represent estimated cluster position and orientation, which were used to control the approach direction of the end-effector.
+    [Left] Segmentation results from Mask-RCNN algorithm during field trial. [Right] 3D visualization of apple canopy after cluster segmentation and pose estimation. Different colored clusters represent different instances of segmentation results. Black lines represent the surface normals of each point of the segmented clusters. The red arrows represent estimated cluster position and orientation, which were used to control the approach direction of the end-effector.
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -46,6 +46,7 @@ Boundary thinning approach thinned 67.3% of flowers from the target clusters wit
 
 Field evaluation of the proposed robotic thinning approach during [Boundary Thinning](https://youtu.be/JOcNg0Lfuh4) and [Center Thinning](https://youtu.be/Q78Ga0lCxQI) in commercial orcahrd environment.
 
+<hr>
 **SKILLS:** Python, OpenCV, Open3D, TensorFlow, NumPy, Pandas, Robot Operating System (ROS), Linux, Arduino, Autodesk Inventor
 
 

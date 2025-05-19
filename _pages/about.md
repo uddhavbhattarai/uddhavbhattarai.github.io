@@ -25,8 +25,3 @@ Currently, I am working as a Postdoctoral Scholar with [Prof. Stavros G. Vougiou
 
 I completed my Ph.D. at Washington State University (WSU) under [Prof. Manoj Karkee](https://agrobotics.cals.cornell.edu/) (now at Cornell University). During my Ph.D., I worked in the intersection of computer vision, artificial intelligence, and ground/aerial robotics for automation and enhanced decision-making in dynamic, unstructured environment. My doctoral research focused on the design, development, and deployment of intelligent robotic systems, including algorithms for scene understanding (object detection, segmentation, localization, density estimation, counting) and advanced control systems.
 
-<!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->

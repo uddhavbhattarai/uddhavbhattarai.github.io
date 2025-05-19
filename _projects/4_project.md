@@ -1,12 +1,16 @@
 ---
 layout: page
-title: deep regression based object density estimation, localization, and counting
+title: Semi-supervised approach object density estimation, localization, and counting
 description:
 img: assets/img/DSC09300_overlaid.png
-importance: 5
-category: work
+importance: 3
+category: Deep/Machine Learning, and Computer Vision
+related_publications: true
+
 ---
-We propose a deep regression-based approach that leverages dot annotations to estimate flower and fruit density, location and count. It avoids the complex and time-consuming process of explicitly detecting and counting each object. Instead, the model directly predicts a density map where the sum of pixel intensities corresponds to the flower or fruit count.
+
+Proposed AgRegNet, a powerful attention-based deep regression network designed to simultaneously estimate density, localize, and count objects in complex scenes with minimal point annotations. It bypasses the need for complex and resource intensive object detection or polygon annotations, directly generating high-fidelity density maps whose pixel sum yields accurate object counts. Delivers high accuracy in both sparse and dense object distributions with heavy occlusion. Details: {% cite bhattarai2024agregnet %}
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -44,7 +48,7 @@ We propose a deep regression-based approach that leverages dot annotations to es
     [Left/Top] Canopy image with harvest ready apples. [Right/Bottom] Canopy with harvest ready apples with overlaid density map generated from proposed approach.
 </div>
 
-Once the density maps were generated post-processing algorithm was developed to estimate flower and fruit location.
+Once the density maps were generated, a post-processing algorithm was developed to estimate flower and fruit location. The individual flowers and fruits were localized by identifying local peaks corresponding to object centroids. The predicted peaks were then matched to ground truth annotations using a bipartite graph matching with the Hungarian algorithm for precise one-to-one correspondence.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -55,7 +59,11 @@ Once the density maps were generated post-processing algorithm was developed to 
     </div>
 </div>
 <div class="caption">
-    Localization results for full bloom flowers and harvest heady apples.
+    [Zoom in for better view] Localization results for full bloom flowers and harvest heady apples. Red: ground truth, Blue: True Positive, Magenta: False Negative, and Yellow: False positive. Cyan: Line connecting ground truth to the true positive
 </div>
 
-**SKILLS:** Python, OpenCV, PyTorch, NumPy, Pandas, Scikit-learn, Linux
+For flower images, AgRegNet achieved density map similarity score of 93.8 out of 100, an object counting accuracy of 87.3%, and a localization accuracy score of 0.81 (on a scale of 0 to 1). For fruit images, the model reached a density map similarity score of 91.0, counting accuracy of 94.4%, and a localization accuracy of 0.93, demonstrating strong performance in both visual scene understanding and object localization.
+
+[Contact me](mailto:uddhavbhattarai@outlook.com) for code and dataset.
+<hr>
+**SKILLS:** Python, OpenCV, PyTorch, NumPy, Pandas, Scikit-learn, Linux  
