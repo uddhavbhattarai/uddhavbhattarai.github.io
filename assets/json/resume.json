@@ -6,7 +6,8 @@
     "email": "uddhavbhattarai@outlook.com",
     "phone": "",
     "url": "https://www.linkedin.com/in/uddhavbhattarai/",
-    "summary": "",
+    "summary": "Research Scientist with 7+ years of experience in AI, Deep Learning, Computer Vision, and Robotics. Proven record of delivering deployable CV models (detection, segmentation, counting) and AI solutions for time series analysis using multimodal data, cloud pipelines, and MLOps practices (Docker, MLflow, AWS). Strong background in academia and a startup environment with real-world deployment and cross-functional collaboration experience.",
+    "city": "Sacramento, CA, USA (Available for relocation)",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
@@ -18,7 +19,7 @@
       {
         "network": "",
         "username": "",
-        "url": ""
+        "url": "https://uddhavbhattarai.github.io/"
       }
     ]
   },
@@ -57,9 +58,23 @@
       "startDate": "2023",
       "endDate": "-",
       "summary": "",
-      "highlights": ["Developed deep learning-based approach to detect picker activity recognition system using time series Global Positioning System (GPS), Inertial Measurement Unit (IMU), and Weight information during strawberry harvesting.",
-    "Developing an automated pipeline to estimate precision yield in strawberry fields throughout the harvesting season based on GPS, IMU, and weight information."]
+      "highlights": ["MULTIMODAL TIME SERIES MODELING: Developed and deployed deep learning models (CNN-LSTM) to analyze 3,000+ hours of sensor data to recognize worker activities and productivity, achieving >95% accuracy. Deployed models using MLflow for experiment tracking and versioning.",
+      "LARGE-SCALE DATA PIPELINE: Built an automated pipeline using deep learning and clustering to process 100M+ GPS, IMU, and weight data for yield mapping. Leveraged AWS SageMaker and SQL for processing terabyte-scale multimodal time series data.",
+      "MULTIMODAL PREDICTIVE MODELING: Developing a yield forecasting model fusing GPS, IMU, weight sensor, geo-tagged images, and weather data."]
     },
+      {
+      "name": "FFRobotics Inc.",
+      "position": "Technical Consultant",
+      "url": "https://www.ffrobotics.com/",
+      "startDate": "2022",
+      "endDate": "2023",
+      "summary": "",
+      "highlights": [
+  "OBJECT DETECTION FOR ROBOTICS: Developed and integrated Mask R-CNN in TensorFlow C++ for real-time object detection, 3D localization, and obstacle identification in robotic harvester.",
+  "TOOLING & DEBUGGING: Built custom logging tools, testing scripts, and debugging utilities for hardware–software integration.",
+  "SOFTWARE INTEGRATION: Maintained Git-based CV pipeline for continuous development and deployment.",
+  "OUTREACH: Explained robotic and machine learning techniques and results to technical and non-technical audiences."
+]},
   
     {
       "name": "Washington State University (Pullman, WA)",
@@ -68,47 +83,69 @@
       "startDate": "2018",
       "endDate": "2023",
       "summary": "",
-      "highlights": ["Developed and implemented deep learning based fully-supervised algorithms for object(e.g. flowers, fruits, branches, trunk, cordons) detection and segmentation, and 3D localization in fruit crops for agriculture automation.",
-    "Developed and implemented deep-learning based weakly supervised computer vision algorithms for flowers and fruits density and yield estimation,localization, counting.",
-  "Developed, integrated, and evaluated Robot Operating System (ROS)-based robotic systems (deep learning-based computer  vision, 6-DOF UR5e robot, end-effectors) for blossom thinning and pollination in commercial apple orchards.",
-"Worked on calibration, integration, and data processing of RGB, RGB-D,ToF, multispectral, hyperspectral, thermal cameras as course projects.",
-"Teaching Assistant: Machine Vision for Biological Systems (Fall 2020). Taught graduate classes (Introduction to Deep Learning), and graded homework and projects."]
+      "highlights": [
+  "LABEL-EFFICIENT CV: Developed weakly-supervised image-level annotation-based CV model for object (fruit and flower) counting. Leveraged Guided Backpropagation and Class Activation Mapping to interpret model decisions, reducing annotation time by >85% compared to fully-labeled approaches.",
+  "SEMI-SUPERVISED OBJECT LOCALIZATION: Built attention-based CNN model for object detection, density estimation, and localization using point annotations.",
+  "FULLY-SUPERVISED DETECTION & TRACKING: Built and deployed computer vision models (using PyTorch) for detection, segmentation, and multi-object tracking of agricultural elements (e.g., flowers, fruits, branches) in complex, real-world scenes with varying lighting and occlusion.",
+  "ROBOTICS & 3D VISION: Designed ROS-based robotic system using UR5e arm, stereo vision, and 3D point cloud processing with motion planning algorithms to enable autonomous precision tasks such as blossom thinning, targeted pollination, and branch pruning.",
+  "TEACHING AND MENTORING: Assisted the Principal Investigator in teaching a graduate-level Machine Vision course, including developing and delivering instructional material on 'Introduction to Deep Learning,' evaluating assignments and projects, onboarding interns and graduate students, and providing mentorship and research guidance."
+]
+
     },
 
+
+
     {
-      "name": "FFRobotics Inc.",
-      "position": "Technical Consultant",
-      "url": "https://www.ffrobotics.com/",
-      "startDate": "2022",
-      "endDate": "2023",
+      "name": "Tennessee Technological University (Cookeville, TN)",
+      "position": "Graduate Research Assistant",
+      "url": "https://www.tntech.edu/engineering/",
+      "startDate": "2015",
+      "endDate": "2018",
       "summary": "",
-      "highlights": ["Supported U.S.-based operation, diagnosis, problem resolution, testing, and documentation of the 12-Linear Arm commercial robotic apple harvester field trial in Washington State.",
-                      "Collaborated with local and overseas team to design, develop, and integrate machine/deep learning algorithms to identify and localize apples and obstacles (e.g. trunk, branches, trellis wire)",
-                      "Developed/utilized testing scripts, debugging software, and logging tools to investigate, troubleshoot, and resolve hardware and software problems in field depending on time and resources. Collaborated with the overseas team for problem resolution and feature integration.",
-                      "Explained robotic and machine vision techniques and results to technical and non-technical audiences."]
+      "highlights": [
+  "SENSOR DATA FUSION: Built real-time sensor fusion algorithm combining 3D volumetric scans, Electromagnetic trackers, and 2D RGB endoscopic images for 3D surgical instrument localization with 2D visualization.",
+  "MENTORING: Mentored senior undergraduate capstone projects in programming, circuit design and fabrication, CAD design, and technical report writing."
+]
+
     }
   ],
 
   "skills": [
     {
+      "name": "AI & Robotics",
+      "level": "",
+      "icon": "fa-solid fa-robot",
+      "keywords": [
+        "Deep Learning (Supervised, Weakly- & Semi-Supervised; CNN, LSTM)",
+        "Machine Learning (Gradient Boosting: XGBoost, LightGBM; Random Forest, Clustering)",
+        "Computer Vision",
+        "Time-Series Analysis",
+        "Multimodal Learning",
+        "Robot Operating System (ROS)"
+      ]
+    },
+
+    {
       "name": "Languages",
       "level": "",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Python",
+        "Python (Primary)",
         "C++",
+        "SQL",
         "MATLAB",
         "Verilog"
       ]
     },
 
     {
-      "name": "Libraries",
+      "name": "Frameworks & Libraries",
       "level": "",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
         "PyTorch",
         "TensorFlow",
+        "Keras",
         "OpenCV",
         "Open3D",
         "Scikit-learn",
@@ -129,13 +166,27 @@
     },
 
     {
-      "name": "Tools",
+      "name": "Cloud & Data Platforms",
       "level": "",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
+        "AWS (SageMaker, EC2)",
+        "PostgreSQL",
+        "QGIS"
+      ]
+    },
+
+    {
+      "name": "DevOps & MLOps",
+      "level": "",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Docker",
+        "MLflow",
         "Git",
-        "QT",
-        "Autodesk Inventor"
+        "Jupyter Notebooks",
+        "CI/CD",
+        "Linux"
       ]
     },
 
@@ -149,8 +200,29 @@
         "Nvidia Jetson Nano/TX2"
       ]
     }
+
   ],
 
+  "services": [
+  {
+    "name": "Editorial and Reviewer Service",
+    "description": "Associate Editor and Peer Reviewer for major journals and conferences in robotics and agriculture.",
+    "highlights": [
+      "Associate Editor, IROS 2025 – Responsible for managing peer review and making editorial recommendations for submitted papers.",
+      "Peer Reviewer for leading journals and conferences including:",
+      "- Journal of the ASABE and Applied Engineering in Agriculture (ASABE)",
+      "- Computers and Electronics in Agriculture, Biosystems Engineering (Elsevier)",
+      "- Journal of Field Robotics (Wiley), Scientific Reports (Nature)",
+      "- IEEE Transactions on AgriFood Electronics, IEEE T-ASE",
+      "- Frontiers in Plant Science",
+      "- IROS, IEEE Intelligent Vehicles Symposium, IFAC Agricontrol 2025, IFAC World Congress 2023"
+    ]
+  }
+],
+
+
+  
+  
   "awards": [
     {
       "title": "Outstanding Reviewer",
