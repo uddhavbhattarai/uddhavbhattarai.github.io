@@ -20,5 +20,5 @@ I am a Robotics Data Scientist at Pacific Northwest National Laboratory (PNNL) s
 
 I completed my Ph.D. at Washington State University [Advisor: [Prof. Manoj Karkee](https://agrobotics.cals.cornell.edu/); now at Cornell], where I worked on the development of ground and aerial robotic systems for orchard and vineyard operations. My research focused on developing machine vision algorithms leveraging weakly and semi-supervised deep learning and sensor fusion for scene understanding and robotic automation.
 
-Before joining PNNL, I was a Postdoctoral Scholar at University of California, Davis [PI: [Prof. Stavros G. Vougioukas](https://faculty.engineering.ucdavis.edu/vougioukas/)], Davis where I developed on the development of low cost, scalable, and practicle AI-based solutions for processing terabyte-scale data on human activity recognition, efficiency evaluation, and precision yield monitoring in agriculture.
+Before joining PNNL, I was a Postdoctoral Scholar at University of California, Davis [PI: [Prof. Stavros G. Vougioukas](https://faculty.engineering.ucdavis.edu/vougioukas/)] where I developed on the development of low cost, scalable, and practicle AI-based solutions for processing terabyte-scale data on human activity recognition, efficiency evaluation, and precision yield monitoring in agriculture.
 
