@@ -3,7 +3,7 @@ layout: page
 title: Semi-supervised approach object density estimation, localization, and counting
 description:
 img: assets/img/DSC09300_overlaid.png
-importance: 3
+importance: 4
 category: Deep/Machine Learning, and Computer Vision
 related_publications: true
 

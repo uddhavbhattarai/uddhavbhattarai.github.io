@@ -3,7 +3,7 @@ layout: page
 title: Multimodal time-series model for activity recognition and yield estimation
 description:
 img: assets/img/YieldMapFinal.png
-importance: 1
+importance: 5
 category: Deep/Machine Learning, and Computer Vision
 related_publications: true
 

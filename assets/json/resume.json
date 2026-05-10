@@ -6,8 +6,8 @@
     "email": "uddhavbhattarai@outlook.com",
     "phone": "",
     "url": "https://www.linkedin.com/in/uddhavbhattarai/",
-    "summary": "Research Scientist with 7+ years of experience in AI, Deep Learning, Computer Vision, and Robotics. Proven record of delivering deployable CV models (detection, segmentation, counting) and AI solutions for time series analysis using multimodal data, cloud pipelines, and MLOps practices (Docker, MLflow, AWS). Strong background in academia and a startup environment with real-world deployment and cross-functional collaboration experience.",
-    "city": "Sacramento, CA, USA (Available for relocation)",
+    "summary": "Robotics Data Scientist working in development of autonomous robotic systems to acclerate scientific discovery.",
+    "city": "Richland, WA, USA",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
@@ -51,12 +51,23 @@
   ],
 
   "work": [
+
+      {
+      "name": "Pacific Northwest National Laboratory (PNNL)",
+      "position": " Robotics Data Scientist",
+      "url": "https://www.pnnl.gov/",
+      "startDate": "2026",
+      "endDate": "-",
+      "summary": "",
+      "highlights": ["Learning-enabled control, Vision Foundation Models (VFM), and vision-language-action (VLA), Sim2Real"]
+    },
+
     {
       "name": "University of California, Davis",
       "position": " Post-Doctoral Research Associate",
       "url": "https://faculty.engineering.ucdavis.edu/vougioukas/",
       "startDate": "2023",
-      "endDate": "-",
+      "endDate": "2026",
       "summary": "",
       "highlights": ["MULTIMODAL TIME SERIES MODELING: Developed and deployed deep learning models (CNN-LSTM) to analyze 3,000+ hours of sensor data to recognize worker activities and productivity, achieving >95% accuracy. Deployed models using MLflow for experiment tracking and versioning.",
       "LARGE-SCALE DATA PIPELINE: Built an automated pipeline using deep learning and clustering to process 100M+ GPS, IMU, and weight data for yield mapping. Leveraged AWS SageMaker and SQL for processing terabyte-scale multimodal time series data.",
@@ -116,12 +127,15 @@
       "level": "",
       "icon": "fa-solid fa-robot",
       "keywords": [
+        "Robot Operating System (ROS/ROS2)",
+        "Sim2Real Transfer [Isaac Sim, Gazebo]",
+        "Vision Foundation Models (VFM)",
+        "Vision-Language-Action (VLA) Models",
         "Deep Learning (Supervised, Weakly- & Semi-Supervised; CNN, LSTM)",
         "Machine Learning (Gradient Boosting: XGBoost, LightGBM; Random Forest, Clustering)",
-        "Computer Vision",
         "Time-Series Analysis",
-        "Multimodal Learning",
-        "Robot Operating System (ROS)"
+        "Multimodal Learning"
+        
       ]
     },
 
@@ -153,15 +167,6 @@
         "Matplotlib",
         "SciPy",
         "NumPy"
-      ]
-    },
-
-    {
-      "name": "Middleware",
-      "level": "",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Robot Operating System (ROS)"
       ]
     },
 

@@ -3,7 +3,7 @@ layout: page
 title: Weakly-supervised deep learning framework for counting
 description: 
 img: assets/img/CountNet.png
-importance: 2
+importance: 3
 category: Deep/Machine Learning, and Computer Vision
 related_publications: true
 ---
